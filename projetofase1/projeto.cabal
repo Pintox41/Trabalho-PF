@@ -1,0 +1,12 @@
+cabal-version:      3.0
+name:               projeto
+version:            0.1.0.0
+synopsis:           Gestao de Biblioteca de Jogos
+build-type:         Simple
+
+executable projeto
+    main-is:          Main.hs
+    other-modules:    Model, Domain
+    hs-source-dirs:   app, src
+    build-depends:    base >= 4.14 && < 5.0
+    default-language: Haskell2010
